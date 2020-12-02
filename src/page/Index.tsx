@@ -13,13 +13,13 @@ export default () => {
 
   return (
     <>
-      <NavigationTop />
-      <Box m={1} py={padding}>
+      {/* <NavigationTop /> */}
+      <Box m={1}>
         <Suspense fallback={<Spinner />}>
           <Route />
         </Suspense>
       </Box>
-      <NavigationBottom />
+      {/* <NavigationBottom /> */}
     </>
   )
 }
