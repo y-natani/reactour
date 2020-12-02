@@ -1,0 +1,1 @@
+{"version":3,"sources":["page/404.tsx"],"names":[],"mappings":"wHAAA,2BAEe,qBACb,OAAO","file":"static/js/4.c9f31d29.chunk.js","sourcesContent":["import React from 'react'\n\nexport default () => {\n  return <div>404</div>\n}\n"],"sourceRoot":""}
