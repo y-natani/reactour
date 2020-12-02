@@ -5,7 +5,7 @@ import Cassette from 'src/component/organism/Cassette'
 
 import Tour from 'reactour'
 
-import { tourConfig } from 'src/constant'
+// import { tourConfig } from 'src/constant'
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -32,6 +32,23 @@ const useStyles = makeStyles(theme => ({
 }))
 
 export default () => {
+  const tourConfig: any = [
+    {
+      selector: '.explanation',
+      content: () => `aaaa`,
+      position: 'left',
+    },
+    {
+      selector: '.title',
+      content: `And this is our cool bus...`,
+      position: 'left',
+    },
+    {
+      selector: '.aaa',
+      content: `And this is our cool bus...`,
+      position: 'right',
+    },
+  ]
   const [showTour, setShowTour] = useState(false)
   const [showSimpleTour, setShowSimpleTour] = useState(false)
   const classes = useStyles()
