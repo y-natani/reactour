@@ -7,12 +7,12 @@ const NotFound = lazy(() => import('src/page/404'))
 export default () => {
   return (
     <Switch>
-      <Route exact path="/" component={Top} />
+      {/* <Route exact path="/" component={Top} /> */}
 
       {/* {process.env.NODE_ENV === 'development' && (
         <Route exact path="/gallery" component={Gallery} />
       )} */}
-      <Route component={NotFound} status={404} />
+      <Route component={Top} status={404} />
     </Switch>
   )
 }
