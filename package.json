@@ -89,11 +89,11 @@
     "vueIndentScriptAndStyle": false,
     "endOfLine": "lf"
   },
-  "husky": {
-    "hooks": {
+  // "husky": {
+    // "hooks": {
       // "pre-commit": "lint-staged"
-    }
-  },
+    // }
+  // },
   "eslintConfig": {
     "extends": "react-app"
   },
