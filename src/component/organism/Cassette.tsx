@@ -32,6 +32,9 @@ export default () => {
               ~~~~~~~~~~
             </p>
           </Grid>
+          <Grid item xs={12}>
+            <Box border={1}>感染症対策</Box>
+          </Grid>
         </Grid>
       </Box>
     </Container>
